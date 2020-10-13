@@ -26,9 +26,10 @@
       var buildUrl = "Build";
       var loaderUrl = buildUrl + "/why.loader.js";
       var config = {
-        dataUrl: buildUrl + "/why.data",
-        frameworkUrl: buildUrl + "/why.framework.js",
-        codeUrl: buildUrl + "/why.wasm",
+        dataUrl: buildUrl + "/why.data.gz",
+        frameworkUrl: buildUrl + "/why.framework.js.gz",
+        codeUrl: buildUrl + "/why.wasm.gz",
+        symbolsUrl: buildUrl + "/why.symbols.json.gz",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "Shatty game",
